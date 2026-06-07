@@ -17,13 +17,6 @@ An interactive stock market web application built using **Streamlit**, which pro
 - Compare predictions from both models
 - Visualize predicted trends
 
-## Machine Learning Models
-
-### LSTM Model
-A deep learning model designed for time-series forecasting that captures long-term dependencies in stock price data.
-
-### ARIMA Model
-A statistical model used for analyzing and forecasting time series data based on past values and error terms.
 
 ## Tech Stack
 
@@ -35,44 +28,21 @@ A statistical model used for analyzing and forecasting time series data based on
 - Matplotlib & Plotly 
 - Statsmodels 
 
-## Project Structure
-stock-analysis-and-pred-app/
-│
-├── pages/
-│    ├── utils/
-│       ├── data_processing.py
-│       ├── model_utils.py
-│   ├── stock_analysis.py
-│   ├── stock_prediction.py
-│
-├── Images/
-│    ├── image.jpg
-│   
-├── trading_app.py
-├── requirements.txt
-├── SOURCES.txt
-└── README.md
+## Installation
 
-## Installation & Setup
+git clone <https://github.com/lokesh525/Stock-Market-Analysis-and-Prediction-App#>
 
-1. Clone the repository
-```bash
-git clone https://github.com/your-username/stock-analysis-app.git
-cd stock-analysis-app
+cd stock_prediction_project
 
-2. Create virtual environment(Recommended)
-```bash
-python -m venv venv
-
-3. Install dependencies
 pip install -r requirements.txt
 
-4. Run the application
-streamlit run trading_app.py
+## Run
+
+streamlit run app.py
 
 
-=## Future Improvements
-- Add real-time stock data API integration
-- Improve prediction accuracy using Transformer models
-- Add news sentiment analysis
-- Deploy on Streamlit Cloud / AWS
+## Future Improvements
+
+- Add Transformer model
+- Add sentiment analysis
+- Deploy to cloud
