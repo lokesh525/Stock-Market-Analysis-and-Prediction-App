@@ -55,23 +55,23 @@ stock-analysis-and-pred-app/
 
 ## Installation & Setup
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/your-username/stock-analysis-app.git
 cd stock-analysis-app
 
-### 2. Create virtual environment(Recommended)
+2. Create virtual environment(Recommended)
 ```bash
 python -m venv venv
 
-### 3. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-### 4. Run the application
+4. Run the application
 streamlit run trading_app.py
 
 
-## Future Improvements
+=## Future Improvements
 - Add real-time stock data API integration
 - Improve prediction accuracy using Transformer models
 - Add news sentiment analysis
